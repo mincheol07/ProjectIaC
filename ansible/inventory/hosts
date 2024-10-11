@@ -1,0 +1,7 @@
+[k8s]
+master.k8s ansible_host=192.168.133.181 ansible_port=22 ansible_user=master ansible_python_interpreter=/usr/bin/python3 ansible_become_password=1111
+node1.k8s ansible_host=192.168.133.182 ansible_port=22 ansible_user=node1 ansible_python_interpreter=/usr/bin/python3 ansible_become_password=1111
+node2.k8s ansible_host=192.168.133.183 ansible_port=22 ansible_user=node2 ansible_python_interpreter=/usr/bin/python3 ansible_become_password=1111
+node3.k8s ansible_host=192.168.133.184 ansible_port=22 ansible_user=node3 ansible_python_interpreter=/usr/bin/python3 ansible_become_password=1111
+
+
